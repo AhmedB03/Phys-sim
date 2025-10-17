@@ -5,3 +5,8 @@ canvas {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     background: #1e293b;
 }
+
+/* Ensure the WebGL canvas doesn't intercept pointer events unexpectedly */
+.r3f-canvas {
+    pointer-events: auto;
+}
